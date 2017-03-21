@@ -84,20 +84,7 @@
             luggageFee.style.color = "white";
         },//displayLugMsg
 
-     /*   calcFee = function(e){
-
-            if (e == 'spain'){
-
-
-                img.src = countryArray[0].img;
-                bkg.innerHTML = "Booking Fee: £" + bkgFee[0].value;
-                sum = countryArray[0].cost;
-
-            }
-            pickLuggage();
-
-        },//calcFee
-*/
+   
 
         pickFlight = function () {
 
