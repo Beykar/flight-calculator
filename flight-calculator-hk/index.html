@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radio Buttons JS Projects</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+            <div class="headerMain"><h1>Welcome to Bookaflight.com</h1></div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="checkBtns">
+                <form action="#" >
+                    <h3>destinations: </h3>
+                    <input id="none" type="radio" name="country" value="0" checked> No country selected<br>
+                    <input id="spain" type="radio" name="country" value="350"> Spain: £350<br>
+                    <input id="france" type="radio" name="country" value="375"> France: £375<br>
+                    <input id="italy" type="radio" name="country" value="400"> Italy: £400<br>
+                </form>
+
+                <div id="luggage">
+                    <h3>Luggage: </h3>
+                    <form action="#">
+                    <input id="noLug"  type="radio" name="luggage" value="0" checked> no luggage<br>
+                    <input id="ten"    type="radio" name="luggage" value="10"> 10kg<br>
+                    <input id="twenty" type="radio" name="luggage" value="20"> 20kg<br>
+                    <input id="thirty" type="radio" name="luggage" value="30"> 30kg<br>
+                </form>
+                </div><!--/luggage-->
+            </div><!--/checkBtns-->
+            <div id="images">
+                <img id="img" src="rb-images/holiday_400x400.jpg" width="400" height="400" alt="holiday collage pic">
+            </div><!--/images-->
+            <div id="price">
+                <div id="flight"></div>
+                <div id="bkg"><h3>Select a Destination</h3></div>
+                <div id="subTotal"></div>
+                <div id="luggageFee"></div>
+                <div id="total"></div>
+            </div><!--/price-->
+        </div><!--container-->
+
+    </main>
+    <footer>
+
+    </footer>
+</div><!--/wrapper-->
+<script src="script.js"></script>
+</body>
+</html>
